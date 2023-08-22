@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.Filter{
+    /* border: 1px solid black; */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    overflow: hidden;
+    display: flex;
+    padding: 0;
+    background-color: white;
+}
+.mainn{
+    padding: 0;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.mainn p{
+    border: 1px solid rgb(170, 167, 167);
+    display: flex;
+    align-self: start;
+    justify-content: center;
+    padding: 8px;
+    font-size: 20px;
+    color: rgb(156, 155, 155);
+    margin: 7px;
+    border-radius: 8px;
+}
+.mainn p span {
+    display: flex;
+    align-items: center;
+}

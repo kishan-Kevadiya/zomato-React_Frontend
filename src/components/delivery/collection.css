@@ -1,0 +1,39 @@
+.value{
+    font-size: 40px;
+    margin:0 40px 20px 49px;
+    font: 200;
+    color: rgb(55, 55, 55);
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid #ccc; */
+    /* overflow: hidden; */
+  }
+  
+  .container img {
+      width: 85%;
+      height: 100%;
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: rgba(121, 128, 134, 0.2) 25px 25px 28px;
+    }
+    
+    .container p{
+        color: rgb(54, 54, 54);
+    font-size: 25px;
+    line-height: 3.2rem;
+    font-weight: 500;
+    text-align: center;
+    padding-right: 3.3rem;
+    margin: 0.6rem 0px 0px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    }

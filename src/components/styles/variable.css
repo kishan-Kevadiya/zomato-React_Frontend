@@ -1,0 +1,7 @@
+#root{
+    --primary-shadow:rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    --primary-border:rgb(232,232,232);
+    --primary-back:rgb(255,255,255);
+    --zomato-gray:#828282;
+    --zomato-red:#ff7e8b;
+}

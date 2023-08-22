@@ -1,0 +1,160 @@
+
+
+
+
+
+
+
+
+.card-cover{
+    margin: 12px 0px 24px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+}
+.card-cover:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* transform: matrix(0,1,1,0,0,0); */
+}
+
+.card-main{
+    height: 300px;
+    width: 420px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.card-img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.discount-card{
+    height: 3vh;
+    width: 11vw;
+    /* z-index: 1000; */
+    font-size: 18px;
+    background-color: rgb(67, 139, 254);
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 4px 4px 0;
+    opacity: 1;
+    overflow: hidden;
+    /* clip: rect(0, 11vw, 3vh, 0); */
+}
+
+
+
+.card-name{
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+}
+.card-name .name-rastro{
+    font-size: 20px;
+}
+.card-name .rate{
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    border: 1px solid gray;
+    padding:  0 5px;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 7px;
+    text-align: right;
+}
+.card-name .rate .material-symbols-outlined{
+    fill: #fff;
+    color: #fff;
+}
+
+.cuisin{
+    position: relative;
+    color: rgb(119, 118, 118);
+    display: flex;
+    margin-top: 6px;
+}
+.cuisin-item{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 50%;
+}
+.cuisin-price{
+    position: absolute;
+    font-size: 20px;
+    text-align: right;
+    right: 0;
+    /* padding-left: 80px; */
+
+    
+}
+.del-time{
+    position: relative;
+    margin: 15px 0;
+    /* width: 100%; */
+    /* text-align: end; */
+}
+.del-t{
+    width: 100%;
+}
+.del-time .time{
+    /* position: absolute; */
+    text-align: right;
+    right: 0;
+    font-size: 300;
+    color: rgb(114, 113, 113);
+}
+
+.card-bottom{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    position: relative;
+    /* border-top: 1px solid rgb(110, 109, 109); */
+    padding-top: 20px;
+}
+ .b-text{
+     /* position: relative; */
+     /* display: block; */
+     display: flex;
+     align-items: center;
+     /* justify-content: center; */
+    }
+    .bottomText{ 
+        /* word-break: break-all;  */
+        /* overflow: hidden; 
+        white-space:nowrap;
+        text-overflow: ellipsis;  */
+        position: absolute;
+        width: 85%;
+        padding-left: 10px;
+        font-size: 18px;
+        color: gray;
+    } 
+    
+    .bottom-img{
+        height: 28px;
+        width: 59px;
+        position: block;
+        cursor: pointer;
+    }
+

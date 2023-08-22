@@ -1,0 +1,42 @@
+.first{
+    display: flex;
+}
+.first-s{
+    display: flex;
+    /* align-items: flex-end;
+    justify-content: end; */
+    padding-left: 120vh;
+}
+.first-s p{
+    margin: 0 12px;
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5vw;
+    height: 6xvh;
+    padding: 0px 70px;
+    border-radius: 8px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.second{
+    display: flex;
+}
+.second .s1{
+    /* height: 0; */
+    padding: 25px 10vh;
+    cursor: pointer;
+}
+h4{
+    letter-spacing: 3px;
+    /* margin-top: 35px; */
+    cursor: pointer;
+}
+
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

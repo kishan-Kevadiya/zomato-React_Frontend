@@ -1,0 +1,10 @@
+.col-tittle{
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+}
+.col-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
